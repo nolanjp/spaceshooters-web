@@ -25,11 +25,11 @@ h1 {
 }
 
 canvas {
-  background: url('background.png') no-repeat center center; 
+  background: url('images/background.png') no-repeat center center; 
   background-size: cover;
-  border: 2px solid white;
+  border: 3px solid #aaa; /* darker gray */
   border-radius: 8px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Soft shadow */
 }
 
 #start-button {
@@ -37,15 +37,16 @@ canvas {
   padding: 15px 30px;
   font-size: 20px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(76, 175, 80, 0.2); /* Light green background */
+  border: 1px solid rgba(76, 175, 80, 0.5); /* Green border */
   border-radius: 6px;
+  color: #4CAF50; /* Green text */
   transition: background-color 0.3s, transform 0.2s;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #start-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(76, 175, 80, 0.4); /* Darker green on hover */
   transform: scale(1.05);
 }
 
